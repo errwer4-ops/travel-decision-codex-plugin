@@ -1,0 +1,35 @@
+{
+  "name": "travel-decision-codex-plugin",
+  "version": "0.1.0",
+  "description": "MCP plugin that helps users decide whether a travel package is ready to book.",
+  "author": {
+    "name": "AX Hackathon Team"
+  },
+  "license": "MIT",
+  "keywords": [
+    "travel",
+    "booking",
+    "decision",
+    "myrealtrip",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Travel Decision AI",
+    "shortDescription": "Compare bookable travel plans and explain booking confidence.",
+    "longDescription": "Travel Decision AI creates mock bookable travel combinations for Japan trips and evaluates budget fit, required attractions, hidden costs, fuel surcharges, route efficiency, and booking confidence.",
+    "developerName": "AX Hackathon Team",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "MCP"
+    ],
+    "defaultPrompt": [
+      "8월에 오사카 3박 4일 2명, 예산 150만원으로 지금 바로 예약 가능한 플랜 3개 추천해 줘.",
+      "도쿄 여행 1명, 예산 120만원일 때 유류할증료 포함한 총비용 알려줘.",
+      "이 플랜의 예약 확신도가 왜 이 점수인지 설명해 줘."
+    ],
+    "brandColor": "#155EEF"
+  }
+}

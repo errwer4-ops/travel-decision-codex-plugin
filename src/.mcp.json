@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "travel-decision": {
+      "command": "npm",
+      "args": [
+        "run",
+        "start"
+      ]
+    }
+  }
+}
